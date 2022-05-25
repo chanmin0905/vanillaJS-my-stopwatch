@@ -7,7 +7,7 @@ const wrapperEl = document.querySelector(".wrapper");
 const startButtonEl = document.querySelector("#button-start");
 const stopButtonEl = document.querySelector("#button-stop");
 const resetButtonEl = document.querySelector("#button-reset");
-const labButtonEl = document.querySelector("#button-lab");
+const labButtonEl = document.querySelector("#button-lap");
 
 // 기록을 담을 ul Element 생성
 const ulEl = document.createElement("ul");
