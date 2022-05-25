@@ -30,15 +30,15 @@ const starter = () => {
   } else {
     interVal = setInterval(() => {
       if (milisecondValue < 100) {
-        milisecondEl.textContent = convertFormat(milisecondValue++);
+        milisecondEl.textContent = convertFormat(++milisecondValue);
       } else {
         milisecondValue = 0;
         if (secondValue < 60) {
-          secondEl.textContent = convertFormat(secondValue++);
+          secondEl.textContent = convertFormat(++secondValue);
         } else {
           secondValue = 0;
           if (minuteValue < 60) {
-            minuteEl.textContent = convertFormat(minuteValue++);
+            minuteEl.textContent = convertFormat(++minuteValue);
           } else {
             minuteValue = 0;
           }
